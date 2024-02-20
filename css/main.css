@@ -1,0 +1,79 @@
+body {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border: 2px solid black;
+    font: normal small-caps 500 large normal Georgia serif;   
+}
+
+.structural  {
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color: brown;
+    font-size: larger;
+}
+
+h2 {
+    color: red;
+    font-size: large;
+}
+
+main {
+    height: 70vh;
+}
+
+img {
+    border: 2px solid red;
+    width: 90%;
+    height: 80%;
+}
+
+figure {
+    background-color: antiquewhite;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+#leftimage {
+    float: left;
+}
+
+#rightimage {
+    float: right;
+}
+
+section {
+    clear: both;
+    padding: 10px;
+}
+
+figcaption {
+    font-weight: 100;
+    font-size: medium;
+    color: red;
+    padding: 5px;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color:burlywood;
+}
+
+ul {
+    list-style: square;
+    line-height: 25px;
+}
+
+header, footer {
+    background-color: beige;
+    text-align: center;
+}
